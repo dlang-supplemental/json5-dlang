@@ -1,7 +1,7 @@
-= json5-d
+= json5-dlang
 :description: Native JSON5 implementation for the D programming language.
 
-`json5-d` is a native, high-performance JSON5 parser and serializer for the D programming language, intended to be a drop-in replacement for `std.json` with added support for JSON5 features.
+`json5-dlang` is a native, high-performance JSON5 parser and serializer for the D programming language, intended to be a drop-in replacement for `std.json` with added support for JSON5 features.
 
 == Features
 
@@ -34,16 +34,16 @@ void main() {
 
 == Installation
 
-Add `json5-d` to your `dub.json`:
+Add `json5-dlang` to your `dub.json`:
 
 [source,json]
 ----
 "dependencies": {
-    "json5-d": "~>0.1.0"
+    "json5-dlang": "~>0.1.0"
 }
 ----
 
 == Development
 
-This project is part of link:https://github.com/devcntr-app[The Dev Center] initiative.
+This project is part of the link:https://github.com/dlang-supplemental[Dlang Supplemental] ecosystem.
 

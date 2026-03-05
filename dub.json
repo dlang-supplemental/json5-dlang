@@ -1,7 +1,9 @@
 {
-	"name": "json5-d",
+	"name": "json5-dlang",
 	"description": "Native JSON5 implementation for D",
-	"authors": ["AMDphreak"],
+	"authors": [
+		"AMDphreak"
+	],
 	"license": "MIT",
 	"targetType": "library"
 }

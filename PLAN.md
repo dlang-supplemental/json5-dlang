@@ -1,4 +1,4 @@
-# Implementation Plan: JSON5-D
+# Implementation Plan: JSON5-Dlang
 
 ## Phase 1: Lexer (Tokenizer)
 
