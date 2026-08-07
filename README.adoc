@@ -3,21 +3,12 @@ ifndef::env-github[:icons: font]
 :toclevels: 2
 :sectanchors:
 
-ifndef::env-github[]
+[[readme-top]]
 image:https://img.shields.io/github/contributors/dlang-supplemental/json5-dlang.svg?style=for-the-badge[Contributors,link=https://github.com/dlang-supplemental/json5-dlang/graphs/contributors]
 image:https://img.shields.io/github/forks/dlang-supplemental/json5-dlang.svg?style=for-the-badge[Forks,link=https://github.com/dlang-supplemental/json5-dlang/network/members]
 image:https://img.shields.io/github/stars/dlang-supplemental/json5-dlang.svg?style=for-the-badge[Stars,link=https://github.com/dlang-supplemental/json5-dlang/stargazers]
 image:https://img.shields.io/github/issues/dlang-supplemental/json5-dlang.svg?style=for-the-badge[Issues,link=https://github.com/dlang-supplemental/json5-dlang/issues]
 image:https://img.shields.io/github/license/dlang-supplemental/json5-dlang.svg?style=for-the-badge[License,link=https://github.com/dlang-supplemental/json5-dlang/blob/main/LICENSE]
-endif::[]
-
-ifdef::env-github[]
-image:https://img.shields.io/github/contributors/dlang-supplemental/json5-dlang.svg?style=for-the-badge[Contributors]
-image:https://img.shields.io/github/forks/dlang-supplemental/json5-dlang.svg?style=for-the-badge[Forks]
-image:https://img.shields.io/github/stars/dlang-supplemental/json5-dlang.svg?style=for-the-badge[Stars]
-image:https://img.shields.io/github/issues/dlang-supplemental/json5-dlang.svg?style=for-the-badge[Issues]
-image:https://img.shields.io/github/license/dlang-supplemental/json5-dlang.svg?style=for-the-badge[License]
-endif::[]
 
 = json5-dlang
 
@@ -32,6 +23,8 @@ Install: add `"json5-dlang": "~>0.1.0"` to your `dub.json` dependencies.
 
 == About The Project
 
+link:#readme-top[back to top]
+
 == Features
 
 * **Comments**: Support for single-line (`//`) and multi-line (`/* ... */`) comments.
@@ -40,6 +33,8 @@ Install: add `"json5-dlang": "~>0.1.0"` to your `dub.json` dependencies.
 * **Single-Quoted Strings**: Support for strings wrapped in single quotes.
 * **Multi-line Strings**: Support for strings spanning multiple lines via escaped newlines.
 * **Compatibility**: Fully compatible with `std.json.JSONValue`.
+
+link:#readme-top[back to top]
 
 == Usage
 
@@ -61,6 +56,8 @@ void main() {
 }
 ----
 
+link:#readme-top[back to top]
+
 == Installation
 
 Add `json5-dlang` to your `dub.json`:
@@ -72,6 +69,8 @@ Add `json5-dlang` to your `dub.json`:
 }
 ----
 
+link:#readme-top[back to top]
+
 == Development
 
 This project is part of the link:https://github.com/dlang-supplemental[Dlang Supplemental] ecosystem.
@@ -80,9 +79,13 @@ This project is part of the link:https://github.com/dlang-supplemental[Dlang Sup
 
 See link:LICENSE[LICENSE].
 
+link:#readme-top[back to top]
+
 == Contact
 
 DLang Supplemental — dlang@devcentr.org
 
 * Project: https://github.com/dlang-supplemental/json5-dlang
 * Site: https://dlang-supplemental.github.io
+
+link:#readme-top[back to top]
