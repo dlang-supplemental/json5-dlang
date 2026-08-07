@@ -3,7 +3,29 @@ ifndef::env-github[:icons: font]
 :toclevels: 2
 :sectanchors:
 
-[[readme-top]]
+ifdef::env-github[]
+++++
+<a id="readme-top"></a>
+<div align="center">
+<a href="https://github.com/dlang-supplemental/json5-dlang/graphs/contributors"><img src="https://img.shields.io/github/contributors/dlang-supplemental/json5-dlang.svg?style=for-the-badge" alt="Contributors"></a>
+<a href="https://github.com/dlang-supplemental/json5-dlang/network/members"><img src="https://img.shields.io/github/forks/dlang-supplemental/json5-dlang.svg?style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/dlang-supplemental/json5-dlang/stargazers"><img src="https://img.shields.io/github/stars/dlang-supplemental/json5-dlang.svg?style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/dlang-supplemental/json5-dlang/issues"><img src="https://img.shields.io/github/issues/dlang-supplemental/json5-dlang.svg?style=for-the-badge" alt="Issues"></a>
+<a href="https://github.com/dlang-supplemental/json5-dlang/blob/main/LICENSE"><img src="https://img.shields.io/github/license/dlang-supplemental/json5-dlang.svg?style=for-the-badge" alt="License"></a>
+<br />
+<h3 align="center">json5-dlang</h3>
+<p align="center">
+Native JSON5 implementation for the D programming language.<br />
+Install: add <code>"json5-dlang": "~&gt;0.1.0"</code> to your <code>dub.json</code> dependencies.<br /><br />
+<a href="https://github.com/dlang-supplemental/json5-dlang/issues">Report Bug</a>
+&middot;
+<a href="https://github.com/dlang-supplemental/json5-dlang/issues">Request Feature</a>
+</p>
+</div>
+++++
+endif::[]
+
+ifndef::env-github[]
 image:https://img.shields.io/github/contributors/dlang-supplemental/json5-dlang.svg?style=for-the-badge[Contributors,link=https://github.com/dlang-supplemental/json5-dlang/graphs/contributors]
 image:https://img.shields.io/github/forks/dlang-supplemental/json5-dlang.svg?style=for-the-badge[Forks,link=https://github.com/dlang-supplemental/json5-dlang/network/members]
 image:https://img.shields.io/github/stars/dlang-supplemental/json5-dlang.svg?style=for-the-badge[Stars,link=https://github.com/dlang-supplemental/json5-dlang/stargazers]
@@ -18,6 +40,7 @@ link:https://github.com/dlang-supplemental/json5-dlang/issues[Report Bug] ·
 link:https://github.com/dlang-supplemental/json5-dlang/issues[Request Feature]
 
 Install: add `"json5-dlang": "~>0.1.0"` to your `dub.json` dependencies.
+endif::[]
 
 `json5-dlang` is a native, high-performance JSON5 parser and serializer for D, intended to be a drop-in replacement for `std.json` with added support for JSON5 features.
 
