@@ -1,0 +1,17 @@
+# Encoding guard: fails CI when tracked text files contain double-encoded UTF-8 (mojibake).
+# Backstop for the machine-wide pre-commit hook. Policy and opt-outs:
+# https://github.com/dev-centr/agent-rules/tree/main/tools/encoding-guard
+name: Encoding guard
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  encoding:
+    uses: dev-centr/agent-rules/.github/workflows/encoding-guard.yml@main
