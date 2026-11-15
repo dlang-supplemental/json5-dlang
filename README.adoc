@@ -1,5 +1,6 @@
 ifndef::env-github[:icons: font]
-:toc: preamble
+:toc: macro
+:toc-title:
 :toclevels: 2
 :sectanchors:
 
@@ -41,6 +42,15 @@ link:https://github.com/dlang-supplemental/json5-dlang/issues[Request Feature]
 
 Install: add `"json5-dlang": "~>0.1.0"` to your `dub.json` dependencies.
 endif::[]
+
+++++
+<details>
+<summary>Table of Contents</summary>
+++++
+toc::[]
+++++
+</details>
+++++
 
 `json5-dlang` is a native, high-performance JSON5 parser and serializer for D, intended to be a drop-in replacement for `std.json` with added support for JSON5 features.
 
